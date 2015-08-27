@@ -10,5 +10,19 @@
     <p>
       Bees are pretty scary. But they are also necessary for agriculture to work! They make honey and they also pollinate all the crops so they can make babies and grow. I've been stung by bees like 10 times in my life and it was not fun any of those times, so I would never be a beekeeper.
     </p>
+    <button id="hide" type="button" name="button">Hide the header</button>
+    <button id="show" type="button" name="button">Show the header</button>
+    <script type="text/javascript">
+      $(document).ready(function()  {
+        // when #hide is clicked... slideUp
+        $('#hide').click(function() {
+          $('h1').slideUp();
+        });
+        //when #show is clicked... slideDown
+        $('#show').click(function() {
+          $('h1').slideDown();
+        });
+      });
+    </script>
   </body>
 </html>
