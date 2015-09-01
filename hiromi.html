@@ -15,15 +15,17 @@
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>  </head>
-  <body>
-    <header class="container-fluid">
-      <img class="col-md-1 col-md-offset-1 col-xs-1 img-responsive" id="logo" src="images/nk-logo.svg">
-      <h1 class="col-md-3 col-xs-5" id="sitename">Nick Kalmus</h1>
-      <ul class="col-md-6 col-md-offset-1 col-xs-6" id="nav">
+  <nav class="navbar navbar-fixed-top">
+    <div class="container-fluid">
+      <a class="col-md-1 col-md-offset-1 col-xs-1" id="logo" href="index.html"><img class="img-responsive" src="images/nk-logo.svg"></a>
+      <p class="col-md-3 col-xs-3" id="sitename">Nick Kalmus</h1>
+      <ul class="nav navbar-nav pull-right col-md-offset-1" id="nav">
         <li><a href="index.html">Work</a></li>
         <li><a href="about.html">About</a></li>
       </ul>
-    </header>
+    </div>
+  </nav>
+  <body>
     <section class="container" id="hero">
       <div class="row">
         <h1>Hiromi Tanaka</h1>
@@ -59,9 +61,15 @@
       <h3>Process</h3>
       <div class="row">
         <div class="col-md-10 col-md-offset-1">
-          <p>I interviewed Hiromi to glean some features she may have wanted out of her site, even if she wasn't aware of their availability or ease of implementation. Her main focus was strong: simply let the art speak for itself, and let the rest of the page be as minimal as possible.</p>
-          <p class="col-md-8">Hiromi needed a sustainable solution for the long-term, so I decided to design in Wordpress and let her enter new submissions like blog posts. I provided her with customized documentation for WordPress beginners.</p>
-          <img class="col-md-4" src="hiromi-guide.jpg">
+          <div class="col-md-8"><p>I interviewed Hiromi to glean some features she may have wanted out of her site, even if she wasn't aware of their availability or ease of implementation. Her main focus was strong: simply let the art speak for itself, and let the rest of the page be as minimal as possible.</p>
+          <p>
+          <p>Hiromi needed a sustainable solution for the long-term, so I decided to design in Wordpress and let her enter new submissions like blog posts. I provided her with customized documentation for WordPress beginners.</p>
+          </div>
+          <img class="col-md-4" src="images/hiromi-guide.jpg">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-10 col-md-offset-1">
           <p>If Hiromi approached me to implement new features for her site, I would:
             <ul>
               <li>Conduct usability testing</li>

@@ -15,56 +15,59 @@
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>  </head>
-  <body>
-    <header class="container-fluid">
-      <img class="col-md-1 col-md-offset-1 col-xs-1 img-responsive" id="logo" src="images/nk-logo.svg">
-      <h1 class="col-md-3 col-xs-5" id="sitename">Nick Kalmus</h1>
-      <ul class="col-md-6 col-md-offset-1 col-xs-6" id="nav">
+  <nav class="navbar navbar-fixed-top">
+    <div class="container-fluid">
+      <a class="col-md-1 col-md-offset-1 col-xs-1" id="logo" href="index.html"><img class="img-responsive" src="images/nk-logo.svg"></a>
+      <p class="col-md-3 col-xs-3" id="sitename">Nick Kalmus</h1>
+      <ul class="nav navbar-nav pull-right col-md-offset-1" id="nav">
         <li><a href="index.html">Work</a></li>
         <li><a href="about.html">About</a></li>
       </ul>
-    </header>
-    <section class="container" id="hero">
-      <div class="row">
-        <div class="col-md-3 col-md-offset-1">
-          <img class="img-responsive img-circle" src="images/me.jpg">
+    </div>
+  </nav>
+  <body>
+    <div class="container-fluid">
+      <section id="hero">
+        <div class="row">
+          <div class="col-md-3 col-md-offset-1 col-xs-4">
+            <img class="img-responsive img-circle" src="images/me.jpg">
+          </div>
+          <div class="col-md-7 col-xs-8">
+              <h1>Hi, my name is <span>Nick</span>, and I'm a <span>UX</span> and <span>visual designer</span>.</h1>
+              <p class="lead">I love to make sites, interfaces, and experiences that are intuitive and compelling.</p>
+          </div>
         </div>
-        <div class="col-md-7">
-          <h1>Hi, my name is <span>Nick</span>, and I'm a <span>UX</span> and <span>visual designer</span>.</h1>
-          <p class="lead">I love to make sites, interfaces, and experiences that are intuitive and compelling.</p>
-          <!-- <p>I'm a designer with backgrounds in studio art, print design, and front-end development, and I've worked in cultural institutions, arts publications and nonprofits. I love to make sites, interfaces and experiences that are intuitive and compelling. I make not just products, but cohesive experiences &amp; designed ecosystems. To that end, I see projects from conception all the way through to launch whenever possible.</p> -->
+      </section>
+      <section id="work">
+        <div class="row">
+          <div class="col-md-5 col-md-offset-1">
+            <img class="img-responsive" src="images/moxy-thumb.jpg">
+          </div>
+          <div class="col-md-5 first-thumb">
+            <h2>Moxy</h2>
+            <p>A frictionless tech ecosystem for a young hotel brand.</p>
+            <a class="btn btn-primary" href="moxy.html" role="button">View the case study</a>
+          </div>
         </div>
-      </div>
-    </section>
-    <section class="container" id="work">
-      <div class="row">
-        <div class="col-md-6">
-          <img class="img-responsive" src="images/moxy-thumb.jpg">
-        </div>
-        <div class="col-md-6">
-          <h2>Moxy</h2>
-          <p>A frictionless tech ecosystem for a young hotel brand.</p>
-          <a class="btn btn-primary" href="moxy.html" role="button">View the case study</a>
-        </div>
-      </div>
-      <div class="row">
-          <div class="col-md-3">
+        <div class="row">
+          <div class="col-md-3 col-md-offset-1">
             <img class="img-responsive" src="images/china-thumb.jpg">
           </div>
-          <div class="col-md-3">
+          <div class="col-md-2 second-thumb">
             <h2>Cyrus Tang Hall of China</h2>
             <p>An immersive companion piece to a dazzling new exhibition.</p>
             <a class="btn btn-primary" href="china.html" role="button">View the case study</a>
           </div>
           <div class="col-md-3">
-            <img class="img-responsive" src="">
+            <img class="img-responsive" src="images/hiromi-thumb.jpg">
           </div>
-          <div class="col-md-3">
+          <div class="col-md-2 second-thumb">
             <h2>Hiromi Tanaka</h2>
             <p>A no-nonsense virtual gallery for a dynamic visual artist.</p>
             <a class="btn btn-primary" href="hiromi.html" role="button">View the case study</a>
           </div>
         </div>
+        <!--
         <div class="row">
           <div class="col-md-3">
             <img class="img-responsive" src="">
@@ -83,6 +86,8 @@
             <a class="btn btn-primary" href="" role="button">View the case study</a>
           </div>
         </div>
+      -->
       </section>
+    </div>
   </body>
 </html>
