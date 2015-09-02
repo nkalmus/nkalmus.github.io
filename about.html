@@ -18,16 +18,16 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css" />
   </head>
-    <nav class="navbar navbar-fixed-top">
-      <div class="container-fluid">
-        <a class="col-md-1 col-md-offset-1 col-xs-1" id="logo" href="index.html"><img class="img-responsive" src="images/nk-logo.svg"></a>
-        <p class="col-md-3 col-xs-3" id="sitename">Nick Kalmus</h1>
-        <ul class="nav navbar-nav pull-right col-md-offset-1" id="nav">
-          <li><a href="index.html">Work</a></li>
-          <li><a href="about.html">About</a></li>
-        </ul>
-      </div>
-    </nav>
+  <nav class="navbar navbar-fixed-top">
+    <div class="container-fluid">
+      <a class="col-md-1 col-md-offset-1 col-xs-1" id="logo" href="index.html"><img class="img-responsive" src="images/nk-logo.svg"></a>
+      <p class="col-md-3 col-xs-3" id="sitename">Nick Kalmus</h1>
+      <ul class="nav navbar-nav pull-right col-md-offset-1" id="nav">
+        <li><a href="index.html">Work</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </div>
+  </nav>
   <body>
     <div class="container-fluid">
       <section id="hero">
@@ -43,36 +43,37 @@
       </section>
       <section id="resume">
         <div class="row">
-          <div class="col-md-3 col-md-offset-1">
-            <ul id="contact">
-              <li><a href="https://www.google.com/maps/place/Logan+Square,+Chicago,+IL/" target="_new">Chicago, IL</a></li>
-              <li><a href="mailto:nicholas.kalmus@gmail.com" target="_new">Email</a></li>
-              <li><a href="www.linkedin.com/in/nickkalmus" target="_new">LinkedIn</a></li>
-              <li><a href="https://github.com/nkalmus" target="_new">GitHub</a></li>
-              <li><a href="http://twitter.com/nickalmus" target="_new">Twitter</a></li>
-              <li><a href="https://instagram.com/nixeur/" target="_new">Instagram</a></li>
+          <div class="col-md-3 col-md-offset-1" id="left-rail">
+            <div class="up-arrow"></div>
+            <ul class="ul-left" id="social">
+              <li><i class="fa fa-map-marker fa-lg"></i><a href="https://www.google.com/maps/place/Logan+Square,+Chicago,+IL/" target="_new">Chicago, IL</a></li>
+              <li><i class="fa fa-envelope-o fa-lg"></i><a href="mailto:nicholas.kalmus@gmail.com" target="_new">Email</a></li>
+              <li><i class="fa fa-linkedin fa-lg"></i><a href="www.linkedin.com/in/nickkalmus" target="_new">LinkedIn</a></li>
+              <li><i class="fa fa-github fa-lg"></i><a href="https://github.com/nkalmus" target="_new">GitHub</a></li>
+              <li><i class="fa fa-twitter fa-lg"></i><a href="http://twitter.com/nickalmus" target="_new">Twitter</a></li>
+              <li><i class="fa fa-instagram fa-lg"></i><a href="https://instagram.com/nixeur/" target="_new">Instagram</a></li>
             </ul>
             <h3>My Skills</h3>
-            <ul>
+            <ul class="ul-left">
               <li><h5>Research</h5></li>
               <li>User Interviews</li>
               <li>Persona Creation</li>
               <li>Usability Testing</li>
               <li>A/B Testing</li>
             </ul>
-            <ul>
+            <ul class="ul-left">
               <li><h5>Wireframes</h5></li>
               <li>Paper Prototyping</li>
               <li>Omnigraffle</li>
               <li>Balsamiq Mockups</li>
               <li>Invision</li>
             </ul>
-            <ul>
+            <ul class="ul-left">
               <li><h5>Visual</h5></li>
               <li>Adobe CS</li>
               <li>Sketch</li>
             </ul>
-            <ul>
+            <ul class="ul-left">
               <li><h5>Front-End</h5></li>
               <li>HTML5</li>
               <li>CSS3</li>
@@ -81,13 +82,15 @@
               <li>Git</li>
             </ul>
           </div>
-          <div class="col-md-8">
-            <div class="row">
+          <div class="col-md-7" id="right-rail">
+            <div class="row row-white row-first">
               <h3>My Background</h3>
               <p>I'm a designer with backgrounds in studio art, print design, and front-end development, and I've worked in cultural institutions, arts publications and nonprofits. I make not just products, but cohesive experiences &amp; designed ecosystems. To that end, I see projects from conception all the way through to launch whenever possible.</p>
+            </div>
+            <div class="row">
               <h3>My Process</h3>
               <div class="row">
-                <h4 class="col-md-12">Research &amp; Ideation</h4>
+                <h5 class="col-md-12">Research &amp; Ideation</h4>
                 <div class="col-md-4" id="userresearch">
                   <div class="process-icon"><i class="fa fa-search fa-5x"></i></div>
                   <p>I start with <strong>user research</strong> to determine needs &amp; desires. This can include surveys, interviews, and card sorts. Generally results in <strong>user personas</strong>.</p>
@@ -102,7 +105,7 @@
                 </div>
               </div>
               <div class="row">
-                <h4 class="col-md-12">Refinement &amp; Implementation</h4>
+                <h5 class="col-md-12">Refinement &amp; Implementation</h4>
                 <div class="col-md-4" id="clickable">
                   <div class="process-icon"><i class="fa fa-hand-o-up fa-5x"></i></div>
                   <p>From the lo-fi wires I create a <strong>clickable prototype</strong>. I'll put it online and in front of peers for <strong>usability testing</strong>.</p>
@@ -117,7 +120,7 @@
                 </div>
               </div>
             </div>
-            <div class="row">
+            <div class="row row-white">
               <h3>My Experience</h3>
               <h4><strong>User Experience Design Immersive Student</strong> at General Assembly • 2015 •  Chicago, IL</h4>
               <ul>
