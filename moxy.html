@@ -17,9 +17,9 @@
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>  </head>
   <nav class="navbar navbar-fixed-top">
     <div class="container-fluid">
-      <a class="col-md-1 col-md-offset-1 col-xs-1" id="logo" href="index.html"><img class="img-responsive" src="images/nk-logo.svg"></a>
-      <p class="col-md-3 col-xs-3" id="sitename">Nick Kalmus</h1>
-      <ul class="nav navbar-nav pull-right col-md-offset-1" id="nav">
+      <a class="navbar-brand" id="logo" href="index.html"><img class="img-responsive" src="images/nk-logo.svg"></a>
+      <p class="hidden-xs" id="sitename">Nick Kalmus</p>
+      <ul class="nav navbar-nav pull-right" id="nav">
         <li><a href="index.html">Work</a></li>
         <li><a href="about.html">About</a></li>
       </ul>
@@ -27,7 +27,7 @@
   </nav>
   <body>
     <div class="container-fluid">
-      <section id="hero">
+      <section id="hero-work" class="hero-moxy">
         <div class="row">
           <div class="col-md-8 col-md-offset-2">
             <h1>Case Study: Moxy</h1>
@@ -35,10 +35,12 @@
             <ul>
               <li>Research</li>
               <li>Wireframes</li>
-              <li>Visual</li>
+              <li>Visual Design</li>
             </ul>
           </div>
         </div>
+      </section>
+      <section id="brief">
         <div class="row row-white">
           <div class="col-md-8 col-md-offset-2">
             <h3>Our Brief &amp; The Team</h3>
@@ -54,39 +56,39 @@
             <h3>Final Product</h3>
             <div class="col-md-6 col-md-offset-0 col-xs-8 col-xs-offset-2">
               <img class="img-responsive" src="images/moxy-conf.jpg">
-              <p>A reservation confirmation email guides users to the app.</p>
+              <p  class="col-md-12 col-xs-12">A reservation confirmation email guides users to the app.</p>
             </div>
             <div class="col-md-6">
               <img class="col-md-6 col-xs-6 img-responsive" src="images/moxy-splash.png">
               <img class="col-md-6 col-xs-6 img-responsive" src="images/moxy-roomkey.png">
-              <p>Users enter their confirmation info, check in, and receive a digital room key without ever having to speak to the front desk.</p>
+              <p class="col-md-12 col-xs-12">Users enter their confirmation info, check in, and receive a digital room key without ever having to speak to the front desk.</p>
             </div>
           </div>
         </div>
         <div class="row">
           <div class="col-md-8 col-md-offset-2">
             <div class="col-md-6">
-              <img class="col-md-6 img-responsive" src="images/moxy-explore-1.png">
-              <img class="col-md-6 img-responsive" src="images/moxy-explore-2.png">
-              <p>Users can find great suggestions of places to go in Chicago, view Yelp ratings, map their route, and add them to a personalized list.</p>
+              <img class="col-md-6 col-xs-6 img-responsive" src="images/moxy-explore-1.png">
+              <img class="col-md-6 col-xs-6 img-responsive" src="images/moxy-explore-2.png">
+              <p class="col-md-12 col-xs-12">Users can find great suggestions of places to go in Chicago, view Yelp ratings, map their route, and add them to a personalized list.</p>
             </div>
             <div class="col-md-6">
-              <img class="col-md-6 img-responsive" src="images/moxy-connect-1.png">
-              <img class="col-md-6 img-responsive" src="images/moxy-connect-2.png">
-              <p>Users can see who else is online, connect with other guests, and send each other details &amp; attachments.</p>
+              <img class="col-md-6 col-xs-6 img-responsive" src="images/moxy-connect-1.png">
+              <img class="col-md-6 col-xs-6 img-responsive" src="images/moxy-connect-2.png">
+              <p class="col-md-12 col-xs-12">Users can see who else is online, connect with other guests, and send each other details &amp; attachments.</p>
             </div>
           </div>
         </div>
         <div class="row">
           <div class="col-md-8 col-md-offset-2">
             <div class="col-md-6">
-              <img class="col-md-6 img-responsive" src="images/moxy-services-1.png">
-              <img class="col-md-6 img-responsive" src="images/moxy-services-2.png">
-              <p>Users can use hotel services through the app - they can order room service, book meeting space, and change the temperature of their room AC unit.</p>
+              <img class="col-md-6 col-xs-6 img-responsive" src="images/moxy-services-1.png">
+              <img class="col-md-6 col-xs-6 img-responsive" src="images/moxy-services-2.png">
+              <p class="col-md-12 col-xs-12">Users can use hotel services through the app - they can order room service, book meeting space, and change the temperature of their room AC unit.</p>
             </div>
             <div class="col-md-6">
               <img class="img-responsive" src="images/moxy-tv.png">
-              <p>Each room's TV is equipped with the option to order hotel services and to connect the user's existing streaming video accounts.</p>
+              <p class="col-md-12 col-xs-12">Each room's TV is equipped with the option to order hotel services and to connect the user's existing streaming video accounts.</p>
             </div>
           </div>
         </div>
@@ -97,15 +99,16 @@
             <h3>Research</h3>
             <h4>Competitive Analysis</h4>
             <p>We interviewed staff and guests and took in the atmosphere of several competing hotels in downtown Chicago. Two stood out to us in particular.</p>
-            <ul>
-              <li>
-                <h5>Acme Hotel</h5>
-                Low price point, pop-culture styling, down-to-earth staff, but not integrated with technology
-              </li>
-              <li>
-                <h5>Virgin Hotel</h5>
-                The first of its kind, apps for staff messaging &amp; guest services, but all the swanky tech comes at a high price
-              </li>
+            <div class="col-md-6">
+              <img class="img-responsive" src="images/acme.jpg">
+              <h5><strong>Acme Hotel</strong></h5>
+              Low price point, pop-culture styling, down-to-earth staff, but not integrated with technology
+            </div>
+            <div class="col-md-6">
+              <img class="img-responsive" src="images/virgin.jpg">
+              <h5><strong>Virgin Hotel</strong></h5>
+              The first of its kind, apps for staff messaging &amp; guest services, but all the swanky tech comes at a high price
+            </div>
             </ul>
           </div>
         </div>
@@ -128,22 +131,26 @@
             <p>We used the insights &amp; data we gathered from our interviews to construct three personas:</p>
             <div id="personas">
               <div class="col-md-4">
-                <img src="">
+                <img class="img-responsive img-circle" src="images/Matt.jpg">
                 <h5>Matt</h5>
-                Works in sales; meets with clients all day on business travel and just wants to unwind alone after a long day. Easy to please, but loves efficiency.
+                Works in sales; meets with clients all day on business travel and just wants to unwind alone after a long day. Easy to please, but loves efficiency.<br/>
               </div>
               <div class="col-md-4">
-                <img src="">
+                <img class="img-responsive img-circle" src="images/carolina.jpg">
                 <h5>Carolina</h5>
-                Fashion blogger; travels with her team &amp; needs communal space to meet with them during the day. Loves to find cool spots in every new city.
+                Fashion blogger; travels with her team &amp; needs communal space to meet with them during the day. Loves to find cool spots in every new city.<br/>
               </div>
               <div class="col-md-4">
-                <img src="">
+                <img class="img-responsive img-circle" src="images/brandon.jpg">
                 <h5>Brandon</h5>
-                Surveyor; travels with his team for long periods of time (sometimes a month). Wants lots of amenities, comfort, and to be reminded of home.
+                Surveyor; travels with his team for long periods of time (sometimes a month). Wants lots of amenities, comfort, and to be reminded of home.<br/>
               </div>
             </div>
-            <p class="col-md-12">
+          </div>
+        </div>
+        <div class="row row-white">
+          <div class="col-md-8 col-md-offset-2">
+            <p>
             We designed with these personas in mind, knowing the solution would have to accommodate users with these 3 different sets of goals.
             </p>
           </div>
@@ -172,6 +179,8 @@
           <div class="col-md-8 col-md-offset-2">
             <h4>Design Studio</h4>
             <p>We asked a few participants to brainstorm rough ideas for features our personas would enjoy. Afterwards, we identified a few common trends among the ideas &amp; decided which were within the project scope.</p>
+              <img class="img-responsive col-md-6 col-xs-6" src="images/moxy-process-1.jpg">
+              <img class="img-responsive col-md-6 col-xs-6" src="images/moxy-process-2.jpg">
           </div>
         </div>
       </section>
@@ -179,13 +188,13 @@
         <div class="row">
           <div class="col-md-8 col-md-offset-2">
             <h3>Wireframes</h3>
-            <div class="col-md-4">
+            <div class="col-md-4 col-xs-4">
               <img class="img-responsive" src="images/w-checkin.jpg">
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 col-xs-4">
               <img class="img-responsive" src="images/w-key.jpg">
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 col-xs-4">
               <img class="img-responsive" src="images/w-homepage.jpg">
             </div>
             <p class="col-md-12">Checkin, digital room key and post-checkin homepage</p>
@@ -193,13 +202,13 @@
         </div>
         <div class="row">
           <div class="col-md-8 col-md-offset-2">
-            <div class="col-md-4">
+            <div class="col-md-4 col-xs-4">
               <img class="img-responsive" src="images/w-explore-1.jpg">
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 col-xs-4">
               <img class="img-responsive" src="images/w-explore-2.jpg">
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 col-xs-4">
               <img class="img-responsive" src="images/w-explore-3.jpg">
             </div>
             <p class="col-md-12">Explore attractions, get a recommendation, view details &amp; reviews</p>
@@ -207,13 +216,13 @@
         </div>
         <div class="row">
           <div class="col-md-8 col-md-offset-2">
-            <div class="col-md-4">
+            <div class="col-md-4 col-xs-4">
               <img class="img-responsive" src="images/w-connect-1.jpg">
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 col-xs-4">
               <img class="img-responsive" src="images/w-connect-2.jpg">
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 col-xs-4">
               <img class="img-responsive" src="images/w-connect-3.jpg">
             </div>
             <p class="col-md-12">Twitter-style feed and direct guest messaging</p>
@@ -223,27 +232,18 @@
       <section id="nextsteps">
         <div class="row row-white">
           <div class="col-md-8 col-md-offset-2">
-            <h3>Learnings &amp; Next Steps</h3>
+            <h3>Learnings</h3>
             <p>One important lesson from this project was the <strong>importance of research</strong> - without our user data, we might have missed the needs of Matt, who wasn't likely to use the social functions of the app but was very likely to want the convenience of its other services.</p>
             <p>This led us to the concept of <strong>scalability</strong>. Throughout the process, we made sure the service didn't put off any potential users by asking for too much information &amp; input.</p>
-            <p>If we were to continue the project, we would:
-              <ul>
-                <li>Conduct a round of usability testing with hi-fi wireframes</li>
-                <li>Map user journeys for other features like room service</li>
-                <li>Flesh out design &amp; user interaction with kiosk and TV</li>
-                <li>Determine viability of NFC elements like the digital room key</li>
-                <li>Build, test, and iterate!</li>
-              </ul>
-            </p>
           </div>
         </div>
       </section>
       <section id="outro">
-        <div class="row">
-          <p>Like what you see? <a href="mailto:nicholas.kalmus@gmail.com">Contact me</a> and let's work together!
+        <div class="row row-white">
+          <p class="contact-me">Like what you see? <a class="btn btn-primary btn-lg" href="mailto:nicholas.kalmus@gmail.com">Contact me</a> and let's work together!</p>
         </div>
         <div class="row">
-          <a class="btn btn-lg btn-primary" href="china.html">Next up: Cyrus Tang Hall of China</a>
+          <a href="china.html">Next up: Cyrus Tang Hall of China</a>
         </div>
       </section>
     </div>
