@@ -119,6 +119,10 @@ img {
   background:url(../images/hiromi-hero.jpg) repeat 0 0;
   background-size: cover;
 }
+.hero-growit .row {
+  background:url(../images/growit-hero.jpg) repeat 0 0;
+  background-size: cover;
+}
 .first-thumb p {
   font-size:1.5em;
 }
